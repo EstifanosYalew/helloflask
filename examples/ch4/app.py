@@ -6,6 +6,13 @@ from wtforms import ValidationError
 
 from forms import LoginForm, FortyTwoForm
 
+
+Hello
+
+
+
+
+
 app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY', 'secret string')
 
